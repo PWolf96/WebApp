@@ -1,1 +1,1 @@
-web: gunicorn WebApp:worldbank
+web gunicorn worldbank:app
